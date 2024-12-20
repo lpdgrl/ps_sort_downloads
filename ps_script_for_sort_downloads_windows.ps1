@@ -1,8 +1,8 @@
 
 # The path to the folder that need to be sorted
-$PathFolder = "C:\Users\alexs\Downloads"
+$PathFolder = "Put your path to folder"
 
-# $PathFolder ="D:\tmp\test_path"
+# $PathFolder ="D"
 
 $year = $null;
 Get-ChildItem -Path $PathFolder | ForEach-Object {
